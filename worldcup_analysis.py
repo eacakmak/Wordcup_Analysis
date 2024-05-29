@@ -83,7 +83,8 @@ def plot_test_value_critical_value(mean_goals, std_dev_goals, n, alpha=0.05):
 
 
 def main():
-    file_path = r'C:\Users\alp\Desktop\worldcup matches 2022.csv'  # Updated file path
+    # add file path
+    file_path = r'worldcup matches 2022.csv'  
     data = load_data(file_path)
 
     # İlk birkaç satırı ve sütun adlarını görüntüleyin
